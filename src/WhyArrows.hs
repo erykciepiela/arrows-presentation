@@ -3,6 +3,12 @@ module WhyArrows where
 import Control.Monad
 import Control.Arrow
 
+-- Computation models
+
+-- A computation model determines the ways we can compose computations.
+-- By computation model power we mean the number of ways we can compose computations.
+
+
 -- First, the computation models we all know and love
 
 functorialComputation :: Functor f => i -> f (x, y, z)
